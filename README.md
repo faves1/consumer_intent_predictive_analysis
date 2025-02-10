@@ -19,46 +19,6 @@ A **Random Forest model** was trained to make predictions, and the model was dep
 
 ---
 
-## 📂 **Project Structure**
-```
-📦 Consumer-Intent-Prediction
-│-- 📂 data/                      # Dataset (CSV files)
-│-- 📂 models/                    # Saved ML model (rf_model.pkl)
-│-- 📂 notebooks/                 # Jupyter notebooks for EDA & model training
-│-- 📜 app.py                      # Streamlit app for deployment
-│-- 📜 requirements.txt            # Dependencies
-│-- 📜 README.md                   # Project documentation (this file)
-```
-
----
-
-## ⚙ **Installation & Setup**
-
-### 1️⃣ **Clone the Repository**
-```bash
-git clone https://github.com/your-repo/Consumer-Intent-Prediction.git
-cd Consumer-Intent-Prediction
-```
-
-### 2️⃣ **Create a Virtual Environment (Optional but Recommended)**
-```bash
-python -m venv env
-source env/bin/activate  # On Mac/Linux
-env\Scripts\activate  # On Windows
-```
-
-### 3️⃣ **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ **Run the Streamlit App**
-```bash
-streamlit run app.py
-```
-
----
-
 ## 🔍 **How to Use the App**
 1️⃣ Enter customer details such as **product price, age, gender, purchase frequency, and satisfaction level**.  
 2️⃣ Select the **product category** and **brand**.  
