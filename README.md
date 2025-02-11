@@ -4,7 +4,7 @@
 This project predicts whether a customer is likely to purchase a consumer electronics product based on various factors such as **product price, customer age, gender, purchase frequency, satisfaction level, and product category/brand**.
 
 ## Live Link
-
+https://consumerintent-prediction.streamlit.app/
 
 A **Random Forest model** was trained to make predictions, and the model was deployed using **Streamlit** for easy interaction. Additionally, **SHAP (SHapley Additive Explanations)** was integrated to interpret model predictions.
 
